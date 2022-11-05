@@ -1,0 +1,324 @@
+/*-------body---------*/
+body {
+    background-color: #f8f8f8;
+    width: 100%;
+  }
+ /*-------Navigation Style---------*/
+  
+  
+  /*-------Navigation---------*/
+.customNav {
+  position: fixed;
+  width: 100%;
+  background-size: cover;
+  z-index: 10;
+  background-color: #D3E9FE !important;
+  
+
+}
+
+.navbar-brand {
+  margin-left: 2%;
+}
+.logo {
+  margin-left: 4%;
+  
+}
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 4% !important;
+}
+
+.nav-item {
+  margin: 0px 15px;
+  font-size: 18px;
+
+}
+
+/* Navigation dropdown menu */
+.dropdown-menu {
+  background-size: cover;
+ 
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #16181b;
+    text-decoration: none;
+    background-color: #ffa800;
+   
+}
+
+/* Navigation links */
+.customNav a {
+  color: #070055 !important;
+}
+.navCTA {
+  font-size: 15px;
+}
+  
+  
+    
+    /*-------Hero Space---------*/
+   .hero {
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-direction: row-reverse;
+        flex-wrap: wrap-reverse;
+        padding-top:150px;
+   }
+    .intro {
+    width: 100%;
+      max-width: 486px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+   
+    gap: 12px;
+    margin: 40px 0px 140px 80px;
+    padding-right: 0px;
+  }
+  .content {
+    width: 100%;
+    height: auto;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 32px;
+    padding: 0;
+  }
+    
+  .headerImage {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: flex;
+    float: right;
+    top: 110px;
+    margin: 10px 0px 0px 90px;
+    
+  }
+    .Title {
+    width: 100%;
+      max-width: 486px;
+    height: auto;
+    flex-grow: 0;
+    font-family: PlayfairDisplay;
+    font-size: 64px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #25282b;
+  }
+  
+  
+    .introParagraph {
+   width: 100%;
+      max-width: 486px;
+    height: auto;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #515151;
+  }
+  /*-------Buttons---------*/
+  .buttons {
+    max-width: 150px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 0px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
+   
+  }
+  
+    
+  .button-primary {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    flex-grow: 0;
+    display: flex;
+    justify-content: center;
+    align-content:center;
+    align-items: center;
+   padding: 10px 0px 10px 0px;
+    border-radius: 8px;
+    background-color: #FFAE1B;
+    cursor:pointer;
+  }
+
+ 
+  a:hover { text-decoration: none; }
+
+
+  a { text-decoration: none; }
+  .buttonP {
+    width: 100%;
+    height: auto;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+
+  button {
+    border-radius: 10px;
+    background-color: #FFAE1B;
+    cursor:pointer;
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+    color:rgb(0, 0, 0);
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
+  }
+
+  .buttonText {
+    cursor:pointer;
+    font-weight: 700;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+  }
+
+  .buttonText:hover 
+  { text-decoration: none; }
+
+
+  .ourMenu {
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    justify-content: center;
+    font-family: PlayfairDisplay;
+    font-size: 64px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #25282b;
+  }
+  .container {
+    width: 100%;
+  }
+ 
+  .menu-nav_content-wrap {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10%;
+    padding-top: 40px;
+    height: auto;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+  .BurgerTitle {
+    width: 100%;
+    height: auto;
+    padding-top: 70px;
+    font-family: PlayfairDisplay;
+    font-size: 54px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #25282b;
+  }
+  ul {
+    list-style-type: none;
+  }
+  a
+  { text-decoration: none; }
+  
+  .menu-nav_link {
+    color: rgb(0, 0, 0);
+    display: flex;
+   
+  }
+  .menu-nav_link:hover { color: rgb(0, 0, 0); }
+  .burgerSection {
+    width: 80%;
+     padding-top: 80px;
+  }
+  .sandwichSection {
+    width: 65%;
+     padding-top: 80px;
+  }
+  .dessertSection {
+    width: 65%;
+     padding-top: 80px;
+  }
+  .sideSection {
+    width: 65%;
+     padding-top: 80px;
+  }
+  .specialtiesSection {
+    width: 65%;
+     padding-top: 80px;
+  }
+.reviews {
+  padding-top: 5%;
+}
+.phoneNumber {
+    font-family: PlayfairDisplay;
+    font-size: 32px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #005DE9;
+}
+
+.col {
+  flex-direction: wrap !important;
+}
+
+
+@media only screen and (min-width: 580px) and (max-width: 1100px) 
+{
+.headerImage{
+  width: 100%;
+  max-width: 450px;
+}
+
+.media {
+  flex-wrap: wrap;
+}
+}
