@@ -55,7 +55,23 @@ body {
   font-size: 15px;
 }
   
-  
+button {
+  border-radius: 10px;
+  background-color: #FFAE1B;
+  cursor:pointer;
+  font-weight: 700;
+  font-size: 18px;
+ 
+  border: none;
+  color:rgb(0, 0, 0);
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
+}
+.buttonText {
+  padding-right: 12px;
+  padding-left: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
     
     /*-------Hero Space---------*/
    .hero {
@@ -185,16 +201,7 @@ body {
     color: rgb(0, 0, 0);
   }
 
-  button {
-    border-radius: 10px;
-    background-color: #FFAE1B;
-    cursor:pointer;
-    font-weight: 700;
-    font-size: 18px;
-    border: none;
-    color:rgb(0, 0, 0);
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
-  }
+  
 
   .buttonText {
     cursor:pointer;
