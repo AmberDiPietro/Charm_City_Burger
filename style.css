@@ -213,13 +213,13 @@ button {
   .buttonText:hover 
   { text-decoration: none; }
 
-
+/*
   .ourMenu {
     width: 100%;
     height: auto;
     display: flex;
     padding-top: 70px;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
     justify-content: center;
     font-family: PlayfairDisplay;
     font-size: 64px;
@@ -231,6 +231,7 @@ button {
     text-align: center;
     color: #25282b;
   }
+  */
   .container {
     width: 100%;
   }
@@ -241,7 +242,8 @@ button {
     flex-direction: row;
     justify-content: center;
     gap: 10%;
-    padding-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 10px;
     height: auto;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 18px;
@@ -251,12 +253,33 @@ button {
     line-height: 1.5;
     letter-spacing: normal;
     text-align: center;
+    background-color: #f8f8f8;
     color: rgb(0, 0, 0);
   }
+    .menuStickyNavbar{
+      padding-top: 132px;
+      z-index: 5;
+      position: sticky;
+      top: -8em;  
+    }
+.ourMenu {
+  height: 2em;
+    justify-content: center;
+    font-family: PlayfairDisplay;
+    font-size: 64px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #25282b;
+}
+
   .BurgerTitle {
     width: 100%;
     height: auto;
-    padding-top: 70px;
+    padding-top: 80px;
     font-family: PlayfairDisplay;
     font-size: 54px;
     font-weight: bold;
@@ -279,6 +302,9 @@ button {
    
   }
   .menu-nav_link:hover { color: rgb(0, 0, 0); }
+  
+  
+  
   .burgerSection {
     width: 80%;
      padding-top: 80px;
