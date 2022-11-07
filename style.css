@@ -343,7 +343,17 @@ button {
   flex-direction: wrap !important;
 }
 
+.navbar2 {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  background-color: pink;
+}
 
+.navbar2::-webkit-scrollbar {
+  display: none;
+}
 @media only screen and (min-width: 580px) and (max-width: 1100px) 
 {
 .headerImage{
@@ -354,4 +364,9 @@ button {
 .media {
   flex-wrap: wrap;
 }
+
+}
+
+@media only screen and (min-width: 300px) and (max-width: 579px) {
+
 }
