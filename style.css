@@ -370,21 +370,6 @@ body {
   display: none;
 }
 
-.menu-nav_link.active {
-  color: #127704;
-  border: 1px solid #fafafa;
-}
-
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-*::before, *::after {
-    box-sizing: border-box;
-}
 
 
 
