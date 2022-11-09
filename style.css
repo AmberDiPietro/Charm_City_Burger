@@ -55,13 +55,13 @@ body {
   font-size: 15px;
 }
   
-button {
+#navbutton {
   border-radius: 10px;
   background-color: #FFAE1B;
+  font-family: 'Nunito Sans', sans-serif;
   cursor:pointer;
   font-weight: 700;
   font-size: 18px;
- 
   border: none;
   color:rgb(0, 0, 0);
   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
@@ -91,7 +91,6 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-   
     gap: 12px;
     margin: 40px 0px 140px 80px;
     padding-right: 0px;
@@ -185,8 +184,6 @@ button {
  
   a:hover { text-decoration: none; }
 
-
-  a { text-decoration: none; }
   .buttonP {
     width: 100%;
     height: auto;
@@ -200,8 +197,6 @@ button {
     text-align: center;
     color: rgb(0, 0, 0);
   }
-
-  
 
   .buttonText {
     cursor:pointer;
@@ -257,12 +252,14 @@ button {
     color: rgb(0, 0, 0);
    
   }
+  
     .menuStickyNavbar{
       padding-top: 132px;
       z-index: 5;
       position: sticky;
       top: -8em;  
     }
+    
 .ourMenu {
   height: 2em;
     justify-content: center;
@@ -275,6 +272,23 @@ button {
     letter-spacing: normal;
     text-align: center;
     color: #25282b;
+}
+
+.btn {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+.active, .btn:hover {
+  background-color: #FFAE1B;
+  color: none;
+  border-style: none;
 }
 
   .BurgerTitle {
@@ -302,10 +316,11 @@ button {
    /* display: flex; */
    
   }
+  
   .menu-nav_link:hover { color: rgb(0, 0, 0); }
   
-  
-  
+
+
   .burgerSection {
     width: 80%;
      padding-top: 80px;
@@ -354,6 +369,25 @@ button {
 .navbar2::-webkit-scrollbar {
   display: none;
 }
+
+.menu-nav_link.active {
+  color: #127704;
+  border: 1px solid #fafafa;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::before, *::after {
+    box-sizing: border-box;
+}
+
+
+
 @media only screen and (min-width: 580px) and (max-width: 1100px) 
 {
 .headerImage{

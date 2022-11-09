@@ -3,7 +3,6 @@
 
 <head>
   
-<!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-0YKX6BYZ79"></script> <script>   window.dataLayer = window.dataLayer || [];   function gtag(){dataLayer.push(arguments);}   gtag('js', new Date());   gtag('config', 'G-0YKX6BYZ79'); </script>
    <!-- Required meta tags -->
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -42,8 +41,8 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home<span class="sr-only"></span></a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Contact</a>
@@ -67,7 +66,7 @@
           <a class="nav-link" href="#">Delivery</a>
         </li>
         <li class="nav-item">
-          <button class="buttonText" href="#">Order Pick-Up</button>
+          <button class="buttonText" id="navbutton" href="#">Order To-Go</button>
         </li>
       </ul>
     </div>
@@ -89,7 +88,7 @@
         </span>
         <div class="buttons">
           <div class="button-primary"><a class="botton-primary" href="#"><span class="buttonP">
-              Order Pick-Up</span></a>
+              Order To-Go</span></a>
           </div>
         </div>
       </div>
@@ -103,21 +102,21 @@
   <section class="menuStickyNavbar">
     <div class="ourMenu"><h2 class="ourMenu">Our Menu</h2></div>
     <nav class="navbar2">
-      <ul class="menu-nav_content-wrap border-bottom">
-        <li class="menu-nav_item">
-          <a class="menu-nav_link burgerLinks" href="#burgertime">Burgers</a>
+      <ul class="nav menu-nav_content-wrap border-bottom">
+        <li class="menu-nav_item"><button class="btn">
+          <a class="menu-nav_link" href="#burgertime">Burgers</a></button>
         </li>
-        <li class="menu-nav_item">
-          <a class="menu-nav_link" href="#sandwichtime">Sandwiches</a>
+        <li class="menu-nav_item"><button class="btn">
+          <a class="menu-nav_link" href="#sandwichtime">Sandwiches</a></button>
         </li>
-        <li class="menu-nav_item">
-          <a class="menu-nav_link" href="#sidestime">Sides</a>
+        <li class="menu-nav_item"><button class="btn">
+          <a class="menu-nav_link" href="#sidestime">Sides</a></button>
         </li>
-        <li class="menu-nav_item">
-          <a class="menu-nav_link" href="#specialtytime">Other Specialties</a>
-        </li>
-        <li class="menu-nav_item">
-          <a class="menu-nav_link" href="#desserttime">Desserts</a>
+        <li class="menu-nav_item"><button class="btn">
+          <a class="menu-nav_link" href="#specialtytime">Other Specialties</a></button>
+        </li><button class="btn">
+        <li class="menu-nav_item testing">
+          <a class="menu-nav_link" href="#desserttime">Desserts</a></button>
         </li>
       </ul>
     </nav>
@@ -268,6 +267,7 @@
 <br>
 <br>
 <hr>
+
 <!-- Footer -->
 <footer class="text-center text-lg-start bg-light text-muted">
   
