@@ -273,11 +273,20 @@ body {
     text-align: center;
     color: #25282b;
 }
+.menu-nav_link {
+  color: rgb(0, 0, 0);
+ /* display: flex; */
+ 
+}
 
-.btn {
+.menu-nav_link:hover { color: rgb(0, 0, 0); }
+
+.btnz {
   font-family: 'Nunito Sans', sans-serif;
   font-size: 18px;
   font-weight: 700;
+  padding-top: 5px;
+  padding-bottom: 5px;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.5;
@@ -285,8 +294,11 @@ body {
   text-align: center;
 }
 
-.active, .btn:hover {
+.active, .btnz:hover {
   background-color: #FFAE1B;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
   color: none;
   border-style: none;
 }
@@ -310,14 +322,6 @@ body {
   }
   a
   { text-decoration: none; }
-  
-  .menu-nav_link {
-    color: rgb(0, 0, 0);
-   /* display: flex; */
-   
-  }
-  
-  .menu-nav_link:hover { color: rgb(0, 0, 0); }
   
 
 
