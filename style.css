@@ -287,6 +287,8 @@ body {
   font-weight: 700;
   padding-top: 5px;
   padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.5;
@@ -297,8 +299,7 @@ body {
 .active, .btnz:hover {
   background-color: #FFAE1B;
   border-radius: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
+
   color: none;
   border-style: none;
 }
@@ -430,12 +431,12 @@ body {
     display: flex; 
     flex-direction: row;
     justify-content: center;
-    gap: 2%;
+    gap: 4%;
     padding-top: 20px;
     padding-bottom: 10px;
     height: auto;
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 700;
     font-stretch: normal;
     font-style: normal;
