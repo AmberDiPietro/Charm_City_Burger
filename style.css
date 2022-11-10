@@ -380,9 +380,28 @@ body {
   max-width: 400px;
 }
 
+
 }
 
 @media only screen and (min-width: 300px) and (max-width: 579px) {
+  .headerImage{
+    display: none;
+  }
+ 
+  .ourMenu {
+    height: 2em;
+      justify-content: center;
+      font-family: PlayfairDisplay;
+      font-size: 48px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: center;
+      color: #25282b;
+  }
+ 
   .navbar2 {
     overflow-x: auto;
     overflow-y: hidden;
@@ -392,6 +411,13 @@ body {
   
   .navbar2::-webkit-scrollbar {
     display: none;
+  }
+
+  .menuStickyNavbar{
+    padding-top: 0px;
+    z-index: 5;
+    position: sticky;
+    top: 2em;  
   }
   
 
@@ -417,4 +443,60 @@ body {
    
   }
   
+  .intro {
+    width: 100%;
+      max-width: 486px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 12px;
+    margin: 40px 0px 90px 40px;
+    padding-right: 0px;
+  }
+  .content {
+    width: 100%;
+    height: auto;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 32px;
+    padding: 0;
+  }
+    
+
+    .Title {
+    width: 100%;
+      max-width: 486px;
+    height: auto;
+    flex-grow: 0;
+    font-family: PlayfairDisplay;
+    font-size: 48px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #25282b;
+  }
+  
+  
+    .introParagraph {
+   width: 100%;
+      max-width: 486px;
+    height: auto;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #515151;
+  }
 }
