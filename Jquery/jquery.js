@@ -1,5 +1,5 @@
 
-/*
+
 // Get the container element
 var btnContainer = document.getElementById("myDIV");
 
@@ -21,15 +21,15 @@ for (var i = 0; i < btns.length; i++) {
   });
 }
 
-*/
 
 //Default active on home
-$('#s1').addClass("active");
+/*$('#s1').addClass("active");
 
 
 /*
 Smooth scrolling
 */
+/*
 $("#s1").click(function() {
      $('html, body').animate({
          scrollTop:        $("#burgertime").offset().top-65
@@ -75,7 +75,7 @@ $("#s5").click(function() {
 
 /*$('#2').waypoint(function(event, direction) {
 
-  $(".nav-container ul li").children().removeClass("active");
+  $(".navbar2 ul li").children().removeClass("active");
   $("#s2").addClass("active");
   
   if (direction === 'down') {
@@ -90,6 +90,7 @@ $("#s5").click(function() {
 /*
 Using jquery waypoints to change active on scroll
 */
+/*
 $('#sandwichtime').waypoint(function() {
 
   $(".navbar2 ul li").children().removeClass("active");
@@ -125,3 +126,4 @@ $('#desserttime').waypoint(function() {
   $(".navbar2 ul li").children().removeClass("active");
   $("#s5").addClass("active");
 }, { offset: 101 });
+*/
