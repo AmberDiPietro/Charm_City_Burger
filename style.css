@@ -295,15 +295,14 @@ body {
   letter-spacing: normal;
   text-align: center;
 }
-
+/*
 .active, .btnz:hover {
   background-color: #FFAE1B;
   border-radius: 10px;
-
   color: none;
   border-style: none;
 }
-
+*/
   .BurgerTitle {
     width: 100%;
     height: auto;
@@ -363,7 +362,7 @@ body {
 .col {
   flex-direction: wrap !important;
 }
-
+/*
 .navbar2 {
   overflow-x: auto;
   overflow-y: hidden;
@@ -374,9 +373,30 @@ body {
 .navbar2::-webkit-scrollbar {
   display: none;
 }
+*/
+.navbar2 ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px;
+}
+.navbar2 ul li a {
+  padding: 8px 0;
+  color: #25282b;
+  font-size: 1.3em;
+  text-decoration: none;
+  
+  transition: all 0.3s ease;
+}
+.navbar2 ul li a:hover {
+  color: #FFAE1B;
+}
+.active {
+  border-bottom: 2px solid #FFAE1B;
+}
 
-
-
+.visible {
+  opacity: 1;
+}
 
 @media only screen and (min-width: 580px) and (max-width: 1100px) 
 {
